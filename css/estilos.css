@@ -1,0 +1,139 @@
+body{ 
+    margin: 0;
+    background: white;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 60px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px white;
+    color: white;
+    font-size: 26px;
+
+}
+
+h3{
+    font-size: 18px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 540;
+    color: white;
+    font-size: 18px;
+}
+
+figure{
+    position:relative;
+
+}
+    
+.contenedor{ 
+    background: white;
+    text-align: justify;
+    flex-flow: wrap;
+    justify-items: center;
+    align-items: space-between;
+    min-width: 1200px;
+}
+
+#encabezado-principal a{
+	color: #7F7F7F;
+    
+}
+    
+#encabezado-principal{
+    background: white;
+    color: white;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #7F7F7F;
+}
+
+#logo-encabezado{
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+}
+			
+nav ul li a{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+   
+.columna1, .columna2, .columna3, .columna4{
+    margin: 1%;
+    padding: 1%;
+    width: 21%;
+    height: 800px;
+    float: left;
+    background:rgba(23,23,23, .5);
+}
+    
+.columna1{
+    background: #151616;   
+}
+
+.columna2{
+    background: #151616;  
+}
+
+.columna3{
+    background: #151616;  
+}
+
+.columna4{
+    background: #151616;   
+} 
+
+.clear{ clear: both;}
+
+@media all and (min-width: 768px){
+    .contenedor{ 
+        width: 80%;
+        margin: auto;
+         min-height: 600px;
+    }
+}
+
+main{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 0 0 20px;
+}
